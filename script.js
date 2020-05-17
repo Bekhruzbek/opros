@@ -12,5 +12,8 @@ if (b == 'нет') {
 }
 else {
     let answer = prompt('Кого?');
-    alert('Нет')
+    if (answer == 'Маму') {
+        alert('ДА')
+    }
+    else alert('Нет')
 }
